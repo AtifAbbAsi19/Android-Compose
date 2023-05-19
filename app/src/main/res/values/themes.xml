@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.JetPackComposeAndroidMaterial3" parent="android:Theme.Material.Light.NoActionBar" />
+
+
+
+    <style name="Theme.SplashScreenApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.SplashScreenApp">
+
+        <item name="windowSplashScreenBackground">@color/blue_violet3</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/blue_violet3</item>
+        <item name="android:windowBackground">@color/blue_violet3</item>
+        <item name="windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowSplashScreenAnimationDuration">0</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreenApp</item>
+    </style>
+
+
+
+
+</resources>
